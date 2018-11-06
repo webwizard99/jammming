@@ -53,7 +53,8 @@ class App extends React.Component {
       }
 
       updatePlaylistName(name) {
-          this.setState({
+        console.log(name);  
+        this.setState({
               playlistName: name
           });
       }

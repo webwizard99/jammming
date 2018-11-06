@@ -75,7 +75,7 @@ const Spotify = {
 };
 
 const clientId = '81a0d1cd1dab4798b1258f02f8b38757';
-const redirectUrl = 'wizard_music.surge.sh';
+const redirectUrl = 'http://web-wizard-jammming.s3-website.us-east-2.amazonaws.com/';
 let accessToken;
 const url = 'https://api.spotify.com/v1';
 const searchText = '/search?type=track';
